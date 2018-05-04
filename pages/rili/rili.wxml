@@ -1,0 +1,16 @@
+<!--pages/rili/rili.wxml-->
+
+<view class='yue2'>{{nowyear}}/{{nowyue+1}}</view>
+<view class='yue'>
+<view bindtap='up'>上月</view>
+<view bindtap='next'>下月</view>
+
+</view>
+<view class='all'>
+<text wx:for="{{week}}">{{item}}</text>
+</view>
+
+<view class='all' >
+<text wx:for="{{day}}">{{item}}</text>
+</view>
+

@@ -1,0 +1,20 @@
+/* pages/rili/rili.wxss */
+.all{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap
+}
+.all text{
+  width: calc(100%/7);
+  text-align: center
+}
+.yue{
+  display: flex
+}
+.yue >view{
+ flex: 1;
+ text-align: center
+}
+.yue2{
+text-align: center
+}
